@@ -103,11 +103,7 @@ const body = () => {
     </div>
   `
 }
-const cards = (data) => {
-  return data.map((drake)=>{
-        return card(drake)
-      }).join("")
-}
+const cards = (data) => data.map((drake)=> card(drake)).join("")
 
 const renderCards = (data) => {
   const container = document.getElementById("container")
