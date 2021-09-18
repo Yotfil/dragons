@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+.containter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+.containter-input input {
+    border: none;
+    background-color: #e4e3e3;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+.containter-input input:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 8px gray;
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card {
+    width: 32%;
+    padding: 10px;
+    box-shadow: 0 0 4px gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name {
+    font-size: 46px;
+    text-align: center;
+}
+.pic {
+    width: 200px;
+    margin: 20px 0;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.type {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.container-attacks {
+    background-color: rgb(222, 222, 222);
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px rgb(98, 98, 98), 0 0 2px rgb(156, 156, 156);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+p span {
+    font-weight: bold;
+}
+.w-100 {
+    width: 100%;
+}
+.w-49 {
+    width: 49%;
+}
