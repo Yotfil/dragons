@@ -67,7 +67,7 @@ import DataDragons from './data.js';
 const filter = ()=>{
   return `
     <div class="containter-input">
-      <input id="filter" type="text"/>
+      <input id="filter" type="text" placeholder="Filtra por nombre"/>
     </div>
   `
 }
